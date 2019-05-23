@@ -1,0 +1,89 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box
+}
+.orta{
+    width: 960px;
+    margin: auto
+}
+.yemek{
+    width:23.94%;
+    margin:10px;
+    float: left;
+    position: relative;
+}
+img{
+    width:100%
+}
+.box p{
+    position: relative;
+    top:30px;
+    
+}
+.box:hover p{
+    top:0;
+    transition: all 0.5s;
+}
+.yemek img{
+    z-index:10;
+    position: relative;
+}
+
+
+.menu li{
+   display: inline-block;
+   padding: 15px 20px;
+}
+.header{
+    padding: 30px 0;
+    background: red;
+    height: 113px;
+    color:#fff;
+    font-size: 18px;
+    position: fixed;
+    top:0;
+    left:0;
+    right:0;
+    z-index:99;
+}
+.bar{
+    padding: 15px;
+    float: right;
+}
+.logo{
+    width: 20%;
+    float:left;
+    padding: 15px
+
+}
+.menu{
+    width:65%;
+    float:left;
+    margin-left:50px;
+}
+.c{
+    clear: both;
+}
+.bar{
+   
+    float:left
+}
+.box{
+    position: absolute;
+    top:10px;
+    left: 10px;
+    right:10px;
+    z-index: 11;
+    bottom:10px;
+    background:url(http://www.chitrakootweb.com/template/cefrax/img/main-course.jpg);
+    opacity: 0;
+    color:#fff;
+    text-align: center;
+    font-size: 20px;
+    line-height: 500px;
+}
+.yemek:hover .box{
+    opacity: 1;
+    transition: all 1s;
+}
